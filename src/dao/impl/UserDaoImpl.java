@@ -18,5 +18,10 @@ public class UserDaoImpl implements UserDao {
 					+user2.getAge());
 		}
 	}
-
+	
+	@Override
+	public void update(User user) {
+		// 创建一个集合保存用户信息
+		System.out.println("执行修改操作");
+	}
 }
